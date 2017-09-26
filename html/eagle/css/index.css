@@ -1,0 +1,278 @@
+.none{
+	display: none;
+}
+.block{
+	display: block;
+}
+.banner{
+	max-width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+}
+.banner li img{
+	width: 100%;
+	height: 100%;
+}
+.yuan{
+	max-width: 1000px;
+	height: 900px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.yuan li{
+	width: 100%;
+	height: 260px;
+	padding: 20px 0;
+}
+.yuan li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.yuan1{
+	width: 260px;
+	height: 100%;
+	border-radius: 50%;
+	border: 2px solid #DADADA;
+	float: left;
+	position: relative;
+	transition: all 1s;
+}
+.yuan1:hover .yuan-main{
+	transform: rotate(180deg);
+	
+}
+.yuan1:hover .yuan-main3{
+	transform: rotate(180deg);
+	
+}
+.yuan1:hover .yuan1-hidden{
+	opacity: 1;
+	transform: translateX(-300px);
+}
+.yuan-main{
+	width: 230px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 50%;
+	background: url(../img/yuan1.jpg)no-repeat center/cover;
+	transition: all 1s;
+}
+.yuan-main3{
+	width: 230px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 50%;
+	background: url(../img/yuan3.jpg)no-repeat center/cover;
+	transition: all 1s;
+}
+.yuan-main2{
+	width: 230px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 50%;
+	background: url(../img/yuan2.jpg)no-repeat center/cover;
+	transition: all 1s;
+}
+.yuan1-hidden{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,65,129,0.5);
+	border-radius: 50%;
+	position: absolute;
+	left: 300px;
+	top: 0;
+	opacity: 0;
+	transition: all 1s;
+}
+.tiao{
+	width: 200px;
+	height: 2px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.yuan1-hidden h2{
+	font-family: "微软雅黑";
+	font-weight: normal;
+	text-align: center;
+	margin-top: 60px;
+	color: #fff;
+}
+.yuan1-hidden h4{
+	font-family: "微软雅黑";
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	color: #fff;
+}
+.yuan-wenzi{
+	width: 650px;
+	height: 100%;
+	float: right;
+}
+.yuan-wenzi h2{
+	font-family: "微软雅黑";
+	font-weight: normal;
+	margin-top: 60px;
+	color: #000;
+}
+.yuan-wenzi p{
+	margin-top: 20px;
+	color: #888888;
+	line-height: 30px;
+}
+.yuan-wenzi2{
+	width: 650px;
+	height: 100%;
+	float: left;
+}
+.yuan-wenzi2 h2{
+	font-family: "微软雅黑";
+	font-weight: normal;
+	margin-top: 60px;
+	color: #000;
+}
+.yuan-wenzi2 p{
+	margin-top: 20px;
+	color: #888888;
+	line-height: 30px;
+}
+.yuan2{
+	width: 260px;
+	height: 100%;
+	border-radius: 50%;
+	border: 2px solid #DADADA;
+	float: right;
+	position: relative;
+}
+.yuan1:hover .yuan-main{
+	transform: rotate(180deg);
+}
+.yuan2-hidden{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,65,129,0.5);
+	border-radius: 50%;
+	position: absolute;
+	right: 300px;
+	top: 0;
+	opacity: 0;
+	transition: all 1s;
+}
+.yuan2:hover .yuan-main2{
+	transform: rotate(180deg);
+}
+.yuan2:hover .yuan2-hidden{
+	opacity: 1;
+	transform: translateX(300px);
+}
+.yuan2-hidden h2{
+	font-family: "微软雅黑";
+	font-weight: normal;
+	text-align: center;
+	margin-top: 60px;
+	color: #fff;
+}
+.yuan2-hidden h4{
+	font-family: "微软雅黑";
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	color: #fff;
+}
+.six{
+	max-width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+	transition: all 1s;
+	overflow: hidden;
+}
+.tu1{
+	max-width: 100%;
+	height: 500px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.tu1 img{
+	width: 100%;
+	height: 100%;
+}
+.hidden1{
+	width: 1000px;
+	height: 500px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 1s;
+}
+.hidden2{
+	width: 1000px;
+	height: 500px;
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	opacity: 0;
+	transition: all 1s;
+}
+.head1{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	opacity: 0;
+	font-family: simsun;
+	transition: all 1s;
+}
+.head2{
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	opacity: 0;
+	font-family: simsun;
+	transition: all 1s;
+}
+.six:hover .hidden1{
+	opacity: 1;
+}
+.six:hover .hidden2{
+	transform-style: preserve-3d;
+	transform: rotateX(-90deg);
+	opacity: 0.5;
+}
+.six:hover .head1{
+	top: 180px;
+	opacity: 1;
+}
+.six:hover .head2{
+	bottom: 180px;
+	opacity: 1;
+}

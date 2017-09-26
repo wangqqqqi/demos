@@ -1,0 +1,461 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 55px;
+	background: #303030;
+}
+.big{
+	max-width: 1222px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.big li{
+	font-family: "iconfont";
+	font-size: 18px;
+	line-height: 55px;
+	line-height: center;
+}
+.big li a{
+	color: #fff;
+}
+.small{
+	width: 100%;
+	height: 55px;
+	display: flex;
+	justify-content: space-between;
+}
+.small li{
+	font-family: "iconfont";
+	font-size: 18px;
+	line-height: 55px;
+	line-height: center;
+}
+.small li a{
+	color: #fff;
+}
+.small{
+	display: none;
+}
+@media screen and (max-width:750px ) {
+	.big{
+	    display: none;
+    }
+    .small{
+	display: flex;
+    }
+}
+.banner{
+	width: 100%;
+	height: 627px;
+	position: relative;
+	overflow: hidden;
+}
+.banner-main{
+	width: 300%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner-main li{
+	width: 33.333333%;
+	height: 100%;
+	float: left;
+}
+.banner-main li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner-main li:nth-child(1){
+	background: url(../img/iphone_7_medium.jpg)no-repeat center/cover;
+}
+.banner-main li:nth-child(2){
+	background: url(../img/siri_large.jpg)no-repeat center/cover;
+}
+.banner-main li:nth-child(3){
+	background: url(../img/how_to_shoot_on_iphone_large.png)no-repeat center/cover;
+}
+.lbut{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background: #8f8f8f;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	left: 18px;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	line-height: 65px;
+	font-family: "iconfont";
+	color: #BBBBBB;
+	cursor: pointer;
+}
+.rbut{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background: #8f8f8f;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	right: 18px;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	line-height: 65px;
+	font-family: "iconfont";
+	color: #BBBBBB;
+	cursor: pointer;
+}
+.btns{
+	width: 170px;
+	height: 3px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 35px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.btns li{
+	width: 30%;
+	height: 100%;
+	background: #DCDCDC;
+}
+.box{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    }
+.box li{
+    width: 25%;
+    height:272px;
+    float: left;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+.box li:nth-child(1){
+	background: url(../img/apple_pay_medium.jpg)no-repeat center;
+	background-size: auto 100%;
+}
+.box li:nth-child(2){
+	background: url(../img/summer_formal_medium.jpg)no-repeat center;
+	background-size: auto 100%;
+}
+.box li:nth-child(3){
+	background: url(../img/imac_medium.jpg)no-repeat center;
+	background-size: auto 100%;
+}
+.box li:last-child{
+    border-right: none;
+    background: url(../img/summer_casual_medium.jpg)no-repeat center;
+    background-size: auto 100%;
+}
+.bottom{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+}
+.first{
+	max-width: 1222px;
+	height: auto;
+	margin: 0 auto;
+	border-bottom: 1px solid #d6d6d6;
+	font-size: 10px;
+	color: #888888;
+	line-height: 49px;
+	font-family: "微软雅黑";
+}
+.xiaozi{
+	max-width: 1222px;
+	height: 281px;
+	margin: 0 auto;
+	margin-top: 42px;
+}
+.xiaozi1{
+	max-width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.xiaozi1 li{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.biaoti1{
+	font-size: 10px;
+	color: #333333;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.xiaozi2{
+	width: 100%;
+	height: auto;
+	margin-top: 11px;
+}
+.xiaozi2 li{
+	width: 100%;
+	height: auto;
+	font-size: 10px;
+	color: #333333;
+	font-family: "微软雅黑";
+	line-height: 21px;
+}
+.xiaozi2 li a{
+	color: #333333;
+}
+.xiaozi3{
+	width: 100%;
+	height: auto;
+	margin-top: 11px;
+}
+.xiaozi3 li{
+	width: 100%;
+	height:21px;
+	font-size: 10px;
+	color: #333333;
+	font-family: "微软雅黑";
+	line-height: 21px;
+}
+.xiaozi3 li a{
+	color: #333333;
+}
+.xiaozi3 li:nth-child(4){
+	font-weight: bolder;
+}
+.xiaozi4{
+	width: 100%;
+	height: auto;
+	margin-top: 11px;
+}
+.xiaozi4 li{
+	width: 100%;
+	height:21px;
+	font-size: 10px;
+	color: #333333;
+	font-family: "微软雅黑";
+	line-height: 21px;
+}
+.xiaozi4 li a{
+	color: #333333;
+}
+.xiaozi4 li:nth-child(5){
+	font-weight: bolder;
+}
+.xiaozi2 li:hover{
+	text-decoration: underline;
+}
+.xiaozi3 li:hover{
+	text-decoration: underline;
+}
+.xiaozi4 li:hover{
+	text-decoration: underline;
+}
+.xiaozi3 li:nth-child(4):hover{
+	text-decoration:none;
+}
+.xiaozi4 li:nth-child(5):hover{
+	text-decoration:none;
+}
+.gengduo{
+	max-width: 1222px;
+	height: auto;
+	margin: 0 auto;
+	font-size: 10px;
+	line-height: 20px;
+	color: #a5a5a5;
+	font-family: "微软雅黑";
+	border-bottom: 1px solid #d6d6d6;
+}
+.gengduo a{
+	color: #0070c9;
+}
+.gengduo a:hover{
+	text-decoration: underline;
+}
+/*.bottom1-1{
+	max-width: 1222px;
+	height:auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bottom1-11{
+	float: left;
+	font-size: 10px;
+	line-height: 20px;
+	color: #a5a5a5;
+	font-family: "微软雅黑";
+}
+.yinsi{
+	float: left;
+	width: 350px;
+	height: 17px;
+	margin-top: 5px;
+	margin-left: 19px;
+}
+.yinsi li{
+	float: left;
+	width: 20%;
+	height: 100%;
+	border-right: 1px solid #d6d6d6;
+	box-sizing: border-box;
+	font-size: 10px;
+	text-align: center;
+	line-height: 10px;
+	font-family: "微软雅黑";
+}
+.yinsi li a{
+	color: #555555;
+}
+.yinsi li:last-child{
+	border-right: none;
+}
+.bottom1-2{
+	max-width: 1222px;
+	height:auto;
+	margin: 0 auto;
+	font-size: 10px;
+	line-height: 20px;
+	color: #a5a5a5;
+	font-family: "微软雅黑";
+}*/
+.bottom2{
+	max-width: 1222px;
+	height:auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.bottom2-1{
+	height: 30px;
+	float: left; 
+	font-size: 10px;
+	line-height: 30px;
+	color: #a5a5a5;
+	font-family: "微软雅黑";
+}
+.bottom2-2{
+	float: left;
+	width: 350px;
+	height: 17px;
+	margin-top: 10px;
+	margin-left: 19px;
+}
+.bottom2-22{
+	width: 100%;
+	height: 100%;
+}
+.bottom2-2 ul li{
+	float: left;
+	width: 20%;
+	height: 100%;
+	border-right: 1px solid #d6d6d6;
+	box-sizing: border-box;
+	font-size: 10px;
+	text-align: center;
+	line-height: 10px;
+	font-family: "微软雅黑";
+}
+.bottom2-2 ul li:last-child{
+	border-right: none;
+}
+.bottom2-2 ul li a{
+	color: #555555;
+}
+.bottom2-2 ul li:hover{
+	text-decoration: underline;
+}
+.China{
+	width: 45px;
+	height: 22px;
+	float: right;
+	overflow: hidden;
+}
+.qi-box{
+	width: 16px;
+	height: 16px;
+	margin-top: 6px;
+	float: left;
+	background: url(../img/qi_08.png)no-repeat center;
+}
+.guo{
+	margin-top: 10px;
+	float: right;
+	font-size: 10px;
+	text-align: center;
+	line-height: 10px;
+	color: #555555;
+	font-family: "微软雅黑";
+}
+.bottom3{
+	max-width: 1222px;
+	margin: 0 auto;
+	height: 18px;
+	font-size: 10px;
+	line-height: 18px;
+	color: #999999;
+	font-family: "微软雅黑";
+}
+.small-xiaozi{
+	display: none;
+}
+.small-xiaozi{
+	width: 100%;
+	height: 273px;
+	background: #f2f2f2;
+}
+.small-xiaozi li{
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 38px;
+	border-bottom: 1px solid #d6d6d6;
+	font-size: 10px;
+	line-height: 38px;
+	font-family: "微软雅黑";
+	color: #333333;
+}
+.add{
+	float: right;
+	margin-right:10px;
+}
+@media screen and (max-width: 750px){
+	.box li{
+		width: 50%;
+	}
+	.box li:nth-child(2n){
+	    border-right: none;
+	}
+}
+@media screen and (max-width: 600px){
+	.box li{
+		width: 100%;
+	}
+	.box li{
+	    border-right: none;
+	}
+	.xiaozi{
+		display: none;
+	}
+	.small-xiaozi{
+	display: block;
+    }
+} 
+@font-face {
+  font-family: 'iconfont';  /* project id 363533 */
+  src: url('http://at.alicdn.com/t/font_363533_tux0tg4f40ksxlxr.eot');
+  src: url('http://at.alicdn.com/t/font_363533_tux0tg4f40ksxlxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_363533_tux0tg4f40ksxlxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_363533_tux0tg4f40ksxlxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_363533_tux0tg4f40ksxlxr.svg#iconfont') format('svg');
+}

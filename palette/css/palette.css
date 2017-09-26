@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.pattle{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.left{
+	width: 104px;
+	height: 675px;
+	padding:0px 12px;
+	background: #CBD4E4;
+	border-right: 2px solid #ABB8CA;
+}
+.left1{
+	width: 100%;
+	height: 40%;
+	border-bottom: 2px solid #F5F6F7;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+.right{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 130px;
+	right: 0;
+	background: #fff;
+}
+.top{
+	width: 100%;
+	height: 40px;
+	padding: 15px 0px;
+	background:#F5F6F7 ;
+	border-bottom: 2px solid #C5CFDF;
+}
+.bottom{
+	width: 1236px;
+	height: 556px;
+	position: relative;
+}
+.left1>label{
+	width: 40px;
+	height: 40px;
+	background-image:-webkit-radial-gradient(10px 10px,#fff,#E0F0F5);
+	border: 1px solid #1A6AAB;
+	box-sizing: border-box;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 40px;
+}
+.left1>label:hover{
+	font-size: 25px;
+	transition: all 0.6s;
+}
+.left2{
+	width: 100%;
+	height: 20%;
+	border-bottom: 2px solid #F5F6F7;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+.left2>label{
+	width: 40px;
+	height: 40px;
+	background-image:-webkit-radial-gradient(10px 10px,#fff,#E0F0F5);
+	border: 1px solid #1A6AAB;
+	box-sizing: border-box;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 40px;
+}
+.left2>label:hover{
+	font-size: 25px;
+	transition: all 0.6s;
+}
+.left3{
+	width: 100%;
+	height: 10%;
+	border-bottom: 2px solid #F5F6F7;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+.left3>label,.left3>a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-image:-webkit-radial-gradient(10px 10px,#fff,#E0F0F5);
+	border: 1px solid #1A6AAB;
+	box-sizing: border-box;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 40px;
+	color: #000;
+}
+.left3>label:hover{
+	font-size: 25px;
+	transition: all 0.6s;
+}
+.left3>a:hover{
+	font-size: 25px;
+	transition: all 0.6s;
+}
+.left4{
+	width: 100%;
+	height: 20%;
+	border-bottom: 2px solid #F5F6F7;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+.left4>label{
+	width: 40px;
+	height: 40px;
+	background-image:-webkit-radial-gradient(10px 10px,#fff,#E0F0F5);
+	border: 1px solid #1A6AAB;
+	box-sizing: border-box;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+}
+.left4>label:hover{
+	font-size: 25px;
+	transition: all 0.6s;
+}
+.left4>a:hover{
+	font-size: 25px;
+	transition: all 0.6s;
+}
+.left4>label>input{
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+    margin-top: 8px;
+}
+label[active=true]{
+	border: 2px solid #000;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+.eraser{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #CBD4E4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.top>div{
+	width: 40px;
+	height: 40px;
+	background-image:-webkit-radial-gradient(10px 10px,#fff,#E0F0F5);
+	border: 1px solid #1A6AAB;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+}
+.top>div:hover{
+	font-size: 25px;
+	transition: all 0.6s;
+}
+.clip{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}

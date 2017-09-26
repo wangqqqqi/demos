@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 401540 */
+  src: url('http://at.alicdn.com/t/font_401540_jk5sd0sbxt9vbo6r.eot');
+  src: url('http://at.alicdn.com/t/font_401540_jk5sd0sbxt9vbo6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_401540_jk5sd0sbxt9vbo6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_401540_jk5sd0sbxt9vbo6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_401540_jk5sd0sbxt9vbo6r.svg#iconfont') format('svg');
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: url(../images/01.jpeg)no-repeat center/cover;
+}
+.main{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.play{
+	width: 100%;
+	height: 500px;
+}
+.img{
+	width: 340px;
+	height: 340px;
+	padding: 80px;
+	float: left;
+	overflow: hidden;
+}
+.lry{
+	width: 400px;
+	height: 400px;
+	padding: 50px;
+	float: left;
+	overflow: hidden;
+}
+.head{
+	width:280px ;
+	height: 280px;
+	margin: 30px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 50%;
+	overflow: hidden;
+}
+.head-main{
+	width:220px ;
+	height: 220px;
+	margin: 30px;
+	border-radius: 50%;
+}
+.head-main>img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.songs{
+	height: 25px;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #fff;
+}
+.singer{
+	height: 16px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+.bottom{
+	width: 100%;
+	height: 340px;
+	overflow: hidden;
+}
+.bottom>li{
+	height: 16px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+.btn{
+	width: 100%;
+	height: 80px;
+	padding: 10px;
+	margin-top: 30px;
+	background: rgba(222,240,234,0.6);
+}
+.btn-main{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.btns{
+	width: 150px;
+	height: 100%;
+	margin-top: 5px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.btns>div{
+	font-family: "iconfont";
+	font-size: 40px;
+	line-height: 80px;
+	cursor: pointer;
+}
+.pause1{
+	position: absolute;
+	top: -3px;
+	left: 55px;
+	margin: auto;
+	font-family: "iconfont";
+	font-size: 40px;
+	line-height: 80px;
+	display: block;
+}
+.pause2{
+	position: absolute;
+	top: 0;
+	left: 55px;
+	margin: auto;
+	font-family: "iconfont";
+	font-size: 40px;
+	line-height: 80px;
+	display: none;
+}
+.detail{
+	width: 600px;
+	height: 100%;
+	margin-left: 20px;
+	float:left;
+}
+.progress{
+	width: 600px;
+	height: 8px;
+	background: #fff;
+	border-radius: 5px;
+	float: left;
+}
+.progress-main{
+	width: 0%;
+	height: 100%;
+	background: #687C8A;
+	border-radius: 5px;
+}
+.times{
+	width: 120px;
+	height: 38px;
+	float: right;
+}
+.times1,.times2{
+	font-size: 20px;
+	line-height: 35px;
+	float: left;
+}
+.times>span{
+	font-size: 20px;
+	line-height: 35px;
+	float: left;
+}
+.voice{
+	width: 150px;
+	padding-left:20px;
+	height: 100%;
+	float: left;
+}
+.volicon{
+	width: 50px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 80px;
+	font-size: 30px;
+	font-family: "iconfont";
+	font-weight: bold;
+}
+.tiao{
+	width: 100px;
+	height: 6px;
+	border-radius: 3px;
+	background: #fff;
+	float: left;
+	margin-top: 37px;
+	position: relative;
+}
+.tiao-main{
+	width: 14px;
+	height: 100%;
+	border-radius: 3px;
+	background: #687C8A;
+}
+.volbtn{
+	width: 8px;
+	height: 15px;
+	border-radius: 5px;
+	background: #687C8A;
+	position: absolute;
+	top: -5px;
+	left: 10px;
+}
+.collect{
+	width: 50px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 80px;
+	font-size: 30px;
+	font-family: "iconfont";
+}

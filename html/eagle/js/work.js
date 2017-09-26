@@ -1,0 +1,11 @@
+window.onload=function(){
+	$('.heng-right2-1').click(function(){
+		$(this).children('.slide1').toggle();
+	})
+	$('.heng-right2-2').click(function(){
+		$(this).children('.slide2').toggle();
+	})
+	$('.back').click(function(){
+		 $('body,html').animate({scrollTop:0},1000);
+	})
+}

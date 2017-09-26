@@ -1,0 +1,102 @@
+{
+  "index.html": {
+    "resources": [
+      "iconfont/font_n49sw6jhkmb49529/iconfont.css",
+      "img/banner_15.png",
+      "css/index.css",
+      "img/icon.png",
+      "img/logo.png",
+      "js/rem.js",
+      "web.html",
+      "shizi.html",
+      "meiti.html",
+      "remen.html",
+      "gaoxin.html",
+      "zhuxue.html"
+    ],
+    "refer": [
+      "web.html",
+      "shizi.html",
+      "meiti.html",
+      "remen.html",
+      "gaoxin.html",
+      "zhuxue.html"
+    ]
+  },
+  "web.html": {
+    "resources": [
+      "img/jiuye_03.png",
+      "css/web.css",
+      "img/web_10.png",
+      "img/bili_03.png",
+      "img/web_08.png",
+      "img/jiuye_06.png",
+      "img/ke_03.png",
+      "img/web_12.png",
+      "img/jiuye_08.png",
+      "img/web_06.png"
+    ]
+  },
+  "shizi.html": {
+    "resources": [
+      "index.html",
+      "img/laoshi_10.png",
+      "css/shizi.css"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "meiti.html": {
+    "resources": [
+      "img/dianji_32.png",
+      "index.html",
+      "img/dianji_35.png",
+      "css/meiti.css"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "remen.html": {
+    "resources": [
+      "index.html",
+      "css/remen.css",
+      "xiangqing.html"
+    ],
+    "refer": [
+      "index.html",
+      "xiangqing.html"
+    ]
+  },
+  "xiangqing.html": {
+    "resources": [
+      "img/fenxiang_32.png",
+      "img/fenxiang_24.png",
+      "img/fenxiang_20.png",
+      "index.html",
+      "img/fenxiang_30.png",
+      "img/fenxiang_22.png",
+      "css/xiangqing.css",
+      "img/fenxiang_26.png",
+      "img/fenxiang_28.png"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "gaoxin.html": {
+    "resources": [
+      "index.html",
+      "css/gaoxin.css"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "zhuxue.html": {
+    "resources": [
+      "css/zhuxue.css"
+    ]
+  }
+}

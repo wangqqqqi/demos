@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background:#0078e6;
+	position: fixed;
+	z-index: 999;
+}
+.header-main{
+	width:26.666666%;
+	height: 100%;
+	margin:0 auto;
+}
+.logo{
+	width: 35%;
+	height: 0.81rem;
+	float: left;
+	margin-top: 0.11rem;
+	background: url(../img/logo.png)no-repeat center;
+	background-size: 0.70rem 0.66rem;
+}
+.header{
+	width: 65%;
+	height: 100%;
+/*	background: pink;*/
+	float:right;
+	font-size:0.34rem;
+	line-height: 0.92rem;
+	text-align: center;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+}
+.datu{
+	width: 100%;
+	height: 2.8rem;
+}
+.datu a{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+.datu img{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+.shouye{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+}
+.shouye1{
+	width: 2.3rem;
+	height: 0.82rem;
+	background: #f5f6fa;
+	font-size: 0.22rem;
+	font-family: "微软雅黑";
+	color: #494747;
+	text-align: center;
+	line-height: 0.82rem;
+	margin-left: 
+}
+.xinxi{
+	width: 100%;
+	height: 15.6rem;
+	background: #f5f6fa;
+}
+.xinxi-main{
+	width: 94%;
+	height: 100%;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.xinxi-main li{
+	width: 100%;
+	height: 1.85rem;
+	background: #ffffff;
+	border-bottom: 0.1rem solid #f5f6fa;
+	position: relative;
+}
+.card{
+	width:1.93rem; 
+	height: 1.45rem;
+	background: #c8c8c8;
+	position: absolute;
+	left:0.2rem;
+	top: 0.2rem;
+}
+.tongxue{
+	width: 0.9rem;
+	height: 0.3rem;
+	background: #ffffff;
+	font-size: 0.27rem;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #111111;
+	text-align: left;
+	line-height: 0.27rem;
+	position: absolute;
+	left: 2.43rem;
+	top: 0.39rem;
+}
+.ui{
+	width: 3rem;
+	height: 0.3rem;
+	background: #ffffff;
+	font-size: 0.08rem;
+	font-family: "微软雅黑";
+	color: #111111;
+	text-align: left;
+	line-height: 0.2rem;
+	position: absolute;
+	left: 3.4rem;
+	top: 0.4rem;
+}
+.shenlue{
+	font-size: 0.05rem;
+	font-family: "微软雅黑";
+	color: #111111;
+	position: absolute;
+	left: 2.48rem;
+	top: 0.60rem;
+}
+.yuexin{
+	width:  3.5rem;
+	height: 0.3rem;
+	margin-top: 0.1rem;
+	background: #ffffff;
+	font-size: 0.27rem;
+	font-family: "微软雅黑";
+	color: #94d43b;
+	text-align: left;
+	line-height: 0.27rem;
+	position: absolute;
+	left: 2.43rem;
+	top: 0.9rem;
+}
+.gongsi{
+	width:  3.5rem;
+	height: 0.3rem;
+	background: #ffffff;
+	font-size: 0.27rem;
+	font-family: "微软雅黑";
+	color: #111111;
+	text-align: left;
+	line-height: 0.27rem;
+	position: absolute;
+	left: 2.43rem;
+	top: 1.3rem;
+}
+.footer{
+	width: 100%;
+	height: 0.7rem;
+	background: #ffffff;
+}
+.footer1{
+	width: 0.58rem;
+	height: 0.31rem;
+	background: #ffffff;
+	border: 0.01rem solid #999999;
+	border-radius: 30%;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.18rem;
+	margin-right: 0.14rem;
+	position: relative;
+}
+.footer1-1{
+	width: 0.5rem;
+	height: 0.25rem;
+	background: #ffffff;
+	font-size: 0.4rem;
+	font-family: "微软雅黑";
+	color: #383838;
+	text-align: center;
+	line-height: 0.31rem;
+	border: 0.01rem solid #333333;
+	border-radius: 30%;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.yidaosanshi{
+	width: 4rem;
+	height: 0.32rem;
+	background: #ffffff;
+	float: left;
+	margin-top: 0.18rem;
+}
+.yidaosanshi li{
+	width: 0.32rem;
+	height: 0.32rem;
+	background: #ffffff;
+	float: left;
+	border-radius: 50%;
+	border: 0.01rem solid #b4b4b4;
+	margin-right: 0.1rem;
+	position: relative;
+}
+.xiaoyuan{
+	width: 0.26rem;
+	height: 0.26rem;
+	background: #ffffff;
+	font-size: 0.1rem;
+	color: #383838;
+	text-align: center;
+	line-height: 0.26rem;
+	border: 0.01rem solid #191919;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.yidaosanshi li:last-child{
+    width: 0.58rem;
+	height: 0.31rem;
+	background: #ffffff;
+	border: 0.01rem solid #999999;
+	border-radius: 30%;
+	/* float: left; */
+	position: relative;
+}
+.footer2{
+	width: 0.5rem;
+	height: 0.25rem;
+	background: #ffffff;
+	font-size: 0.4rem;
+	font-family: "微软雅黑";
+	color: #383838;
+	text-align: center;
+	line-height: 0.31rem;
+	border: 0.01rem solid #333333;
+	border-radius: 30%;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.yidaosanshi li:nth-child(6){
+	border: 0rem solid #b4b4b4;
+}
+.dian{
+	width: 0.26rem;
+	height: 0.26rem;
+	background: #ffffff;
+	font-size: 0.05rem;
+	font-family: "微软雅黑";
+	color: #383838;
+	text-align: center;
+	line-height: 0.26rem;
+	border: 0rem solid #191919;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.tiaozhuan{
+	width:1rem; 
+	height: 0.3rem;
+	background:#ffffff;
+	float: left; 
+	font-size: 0.1rem;
+	font-family: "微软雅黑";
+	color: #000000;
+	text-align: center;
+	line-height:0.3rem; 
+	margin-top: 0.18rem;
+}
+.kongbaikuang{
+	width: 0.58rem;
+	height: 0.31rem;
+	background: #ffffff;
+	border: 0.01rem solid #999999;
+	border-radius: 30%;
+	float: left;
+	margin-left: 0.05rem;
+	margin-right: 0.05rem;
+	margin-top: 0.18rem;
+	position: relative;
+}
+.kongbaixiao{
+	width: 0.5rem;
+	height: 0.25rem;
+	background: #ffffff;
+	font-size: 0.4rem;
+	font-family: "微软雅黑";
+	color: #383838;
+	text-align: center;
+	line-height: 0.31rem;
+	border: 0.01rem solid #333333;
+	border-radius: 30%;
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.go{
+	width: 0.32rem;
+	height: 0.32rem;
+	background: #ffffff;
+	float: left;
+	border-radius: 50%;
+	border: 0.01rem solid #b4b4b4;
+	margin-top: 0.18rem;
+	position: relative;
+}
+.gozi{
+	width: 0.26rem;
+	height: 0.26rem;
+	background: #ffffff;
+	font-size: 0.1rem;
+	color: #383838;
+	text-align: center;
+	line-height: 0.26rem;
+	border: 0.01rem solid #191919;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.bottom{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.bottom-main{
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 0.15rem;
+}
+.zi1{
+	background: #f5f6fa;
+	font-size: 0.08rem;
+	font-family: "微软雅黑";
+	color: #666666;
+	text-align: center;
+	line-height: 0.35rem;
+}
+.shouye1 a{
+	color: #000;
+}
+
